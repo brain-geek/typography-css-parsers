@@ -1,4 +1,4 @@
 require 'typography'
 require 'nokogiri'
 
-require 'typography-css-parsers/add_to_last_paragraph.rb'
+Dir['lib/typography-css-parsers/*.rb'].each do |file| require file end
