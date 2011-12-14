@@ -5,3 +5,4 @@ gemspec
 
 #TOOD: delme after upstream migration
 gem 'typographer', :git => 'git://github.com/brain-geek/typographer.git'
+gem 'rake'
